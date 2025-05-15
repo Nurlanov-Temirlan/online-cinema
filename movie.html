@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Фильм - Онлайн Кинотеатр</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/movie.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">OnlineCinema</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="catalog.html">Фильмы</a></li>
+          <li><a href="profile.html">Профиль</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div id="movie-detail">
+        <h2 id="movie-title">Загрузка...</h2>
+        <p><strong>Жанр:</strong> <span id="movie-genre"></span></p>
+        <p><strong>Описание:</strong> <span id="movie-description"></span></p>
+        <img id="movie-image" src="" alt="Обложка фильма" class="movie-poster">
+
+        <!-- Видеоплеер -->
+        <div id="movie-player" class="movie-player">
+          <video id="moviePlayer" controls>
+            <source src="./Тема Кокон хандыгына каршы 1840-1850-жылдардагы кыргыздардын кыммылы.mp4" type="video/mp4">
+            Ваш браузер не поддерживает воспроизведение видео.
+          </video>
+        </div>
+      </div>
+
+      <!-- Общий чат -->
+      <!-- Общий чат с таймкодом -->
+<div class="chat-container">
+  <h3 class="tm">Общий чат во время просмотра</h3>
+  <div id="chatMessages" class="chat-box" style="max-height: 200px; overflow-y: auto; border: 1px solid #ccc; padding: 10px; background: #f9f9f9;"></div>
+  <div style="margin-top: 10px;">
+    <input type="text" id="chatInput" placeholder="Введите сообщение..." style="width: 70%; padding: 8px;">
+    <button id="sendBtn" style="padding: 8px 12px;">Отправить</button>
+  </div>
+</div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 OnlineCinema. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="js/movie.js" defer></script>
+  <script src="js/chat.js" defer></script>
+</body>
+</html>

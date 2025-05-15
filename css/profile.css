@@ -1,0 +1,154 @@
+body {
+    background-color: #2c2c2c;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .profile {
+    padding: 50px 0;
+  }
+  
+  .profile-box {
+    text-align: center;
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 12px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #555;
+  }
+  
+  .edit-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff4747;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-btn:hover {
+    background-color: #e53838;
+  }
+  
+  .watched-movies {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .watched-movies h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #ffcc00;
+  }
+  
+  .watched-movies ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .watched-movies li {
+    margin: 8px 0;
+    color: #ccc;
+  }
+  .favorites-movies {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .favorites-movies h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #00ccff;
+  }
+  
+  .favorites-movies ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .favorites-movies li {
+    margin: 8px 0;
+    color: #ccc;
+  }
+  
+
+
+  /* Модальное окно */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0; top: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .modal-content {
+    background-color: #1f1f1f;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    color: #fff;
+  }
+  
+  .modal-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .modal-content label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .modal-content input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .save-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #00cc99;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .save-btn:hover {
+    background-color: #00aa88;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    cursor: pointer;
+  }
+  .close:hover {
+    color: #fff;
+  }
+  

@@ -1,0 +1,51 @@
+.movie-poster {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.movie-player iframe {
+  width: 100%;
+  max-width: 720px;
+  height: 405px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.chat-container {
+  border: 1px solid #444;
+  padding: 10px;
+  background: #1e1e1e;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.chat-box {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #2a2a2a;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+#chat-input {
+  width: 70%;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #e50914;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.tm{
+  color: aqua;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Каталог Фильмов - Онлайн Кинотеатр</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/catalog.css">
+</head>
+<body>
+  <!-- Шапка -->
+  <header>
+    <div class="container">
+      <h1 class="logo">OnlineCinema</h1>
+      <nav>
+        <ul class="nav">
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="catalog.html">Фильмы</a></li>
+          <li><a href="profile.html">Профиль</a></li>
+          <li><a href="login.html">Войти</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Каталог фильмов -->
+  <section class="catalog">
+    <div class="container">
+      <h2>Каталог фильмов</h2>
+      <div class="movie-cards">
+        <!-- Карточки фильмов -->
+        <div class="movie-card">
+          <a href="movie.html?movieId=1">
+            <img src="images/1.jpg" alt="Фильм 1">
+            <h3>Мстители финал</h3>
+            <p>Фантастика, Драма</p>
+          </a>
+          <button class="favorite-btn">Добавить в избранное</button>
+        </div>
+
+        <div class="movie-card">
+          <a href="movie.html?movieId=2">
+            <img src="images/2.webp" alt="Фильм 2">
+            <h3>Оно 2</h3>
+            <p>Ужасы, триллер, драма</p>
+          </a>
+          <button class="favorite-btn">Добавить в избранное</button>
+        </div>
+
+        <div class="movie-card">
+          <a href="movie.html?movieId=3">
+            <img src="images/3.jpg" alt="Фильм 3">
+            <h3>Судная Ночь 2025</h3>
+            <p>Ужасы, триллер, драма</p>
+          </a>
+          <button class="favorite-btn">Добавить в избранное</button>
+        </div>
+
+        <div class="movie-card">
+          <a href="movie.html?movieId=4">
+            <img src="images/4.jpg" alt="Фильм 4">
+            <h3>Кракен</h3>
+            <p>Ужасы, приключения, фэнтези</p>
+          </a>
+          <button class="favorite-btn">Добавить в избранное</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 OnlineCinema. Все права защищены.</p>
+    </div>
+  </footer>
+  <script src="./js/catalog.js"></script>
+</body>
+</html>
